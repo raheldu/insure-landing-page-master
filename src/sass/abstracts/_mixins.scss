@@ -1,0 +1,31 @@
+
+@use "sass:map";
+
+
+$breakpoints: (
+    'mobile':375px,
+    'desktop':1440px,
+);
+
+@mixin breakpoint($size){
+    @media (max-width: map-get($breakpoints, $size)){
+       @content;
+    }
+}
+
+
+@mixin flex_horizontal{
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+@mixin flex_vertical{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+

@@ -1,0 +1,16 @@
+@use '../abstracts' as *;
+
+
+.navigation__menu ul{
+  
+    @include flex_horizontal;
+    
+    li{
+    margin-right: 3em;
+    }
+    
+    a{
+        color:$dark_grayish_violet;
+        text-transform: uppercase;
+    }
+}

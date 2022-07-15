@@ -1,0 +1,72 @@
+@use '../abstracts' as *;
+
+body{
+    font-family: $font_body;
+    font-size: 16px;
+}
+    nav{
+        font-size: 0.75em;
+        font-weight: 400;
+
+    }
+
+    header {
+        h1{
+        font-size: 4.5em;
+        color:$very_light_gray;
+        font-family: $font_heading;
+        line-height: 0.9em;
+        }
+
+        p{
+            color:$dark_grayish_violet;
+            margin:2em 0;
+        }
+        a{
+            font-size: 0.75em;
+        }
+    }
+    .section__card{
+        h1{
+            font-size: 4em;
+            color:$very_dark_violet;
+            font-family: $font_heading;
+            
+        }
+        p{
+            color:$dark_grayish_violet;
+            margin:2em 0;
+            font-size: 0.9rem
+        }  
+
+        h2{
+            font-family: $font_heading;
+            color:$very_dark_violet;
+        }
+        svg{
+            margin-bottom: 2em;
+        }
+    }
+
+    .inner_section{
+        h1{
+           font-size: 2.8em;
+           color:$very_light_gray;
+           font-family: $font_heading;
+        }
+        a{
+            font-size: 0.75rem;
+        }
+       
+
+        
+    }
+
+    
+
+
+
+
+
+
+

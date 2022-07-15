@@ -1,0 +1,22 @@
+@use '../abstracts' as *;
+
+
+.section__card{
+    position:relative;
+
+}
+
+.card{
+    width:100%;
+    padding-right: 3em;
+    
+
+    &::after{
+        content: "";
+        width:7em;
+        position:absolute;
+        top:4rem;
+        left:11rem;
+        border: 1px solid $dark_grayish_violet;
+    }
+}

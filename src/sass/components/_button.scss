@@ -1,0 +1,30 @@
+@use '../abstracts' as *;
+
+.navigation__btn{
+    width: 8rem;
+    height:2.5rem;
+    color: $very_dark_violet;
+    text-align: center;
+    padding: 0.85em;
+    border: 0.17em solid $very_dark_violet;
+    text-transform: uppercase;
+    
+    
+}
+.hero_button{
+    color: $dark_grayish_violet;
+    text-align: center;
+    padding: 0.6rem 1.5rem;
+    border: 0.17em solid $dark_grayish_violet;
+    text-transform: uppercase;
+}
+
+.about_button{
+    color: $very_light_gray;;
+    text-align: center;
+    padding:0.85em 1em;
+    border: 0.17em solid $very_light_gray;;
+    text-transform: uppercase;
+    z-index: 2;
+
+}

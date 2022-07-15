@@ -1,0 +1,32 @@
+
+@use '../abstracts' as *;
+
+.section__card{
+    width:100%;   
+    padding:8rem 11rem;
+    @include breakpoint(mobile){
+        text-align: center;
+        padding:0;
+        background-color: aqua;
+    }
+
+}
+
+
+.card__container{
+    @include flex_horizontal;
+    margin-top: 3em;
+
+
+    @include breakpoint(mobile){
+       
+        @include flex_vertical;
+        
+        .card{
+            align-self: center;
+        }
+ 
+     }
+
+   
+}
